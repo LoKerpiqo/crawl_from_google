@@ -3,6 +3,8 @@ import time
 
 
 file = open("/Users/wuxinheng/Documents/CUB_200_2011/CUB_200_2011/class30_47.txt", "r")
+# The file that contents your searching words.
+
 queries = file.read().split('\n')
 query=list()
 for q in queries:
@@ -13,3 +15,6 @@ for q in query:
     n=1000
     cmd = 'python soup.py %s %d' % (q, n)
     os.system(cmd)
+
+    
+# Feel free to change n
