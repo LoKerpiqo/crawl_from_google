@@ -2,7 +2,7 @@ import os
 import time
 
 
-file = open("/Users/wuxinheng/Documents/CUB_200_2011/CUB_200_2011/class30_47.txt", "r")
+file = open("/Users/wuxinheng/Documents/CUB_200_2011/CUB_200_2011/class90_99.txt", "r")
 # The file that contents your searching words.
 
 queries = file.read().split('\n')
